@@ -1,0 +1,38 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: #eaeaea;
+}
+
+.list-note-items p{
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+.list-note-items:hover{
+  background-color: #444 !important;
+  color: #fff !important;
+}
+.drawer-style{
+  height: 100% !important;
+  z-index: 100;
+}
+
+.drawer-style span{
+  color: #999;
+  margin-bottom: 10px !important;
+  
+}
+
+.notes{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 400px;
+}
